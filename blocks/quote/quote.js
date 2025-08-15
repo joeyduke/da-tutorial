@@ -5,4 +5,3 @@ export default function decorate(block) {
   blockquote.textContent = quoteWrapper.textContent.trim();
   quoteWrapper.replaceChildren(blockquote);
 }
-
